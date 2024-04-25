@@ -66,3 +66,5 @@ if __name__ == "__main__":
     port2 = "/dev/ttyTS00"  # Replace with your second COM port
     baudrate = 9600          # Adjust baud rate as needed
     duration_sec = 60        # Duration of stress test in seconds
+    stress_test(port1, port2, baudrate, duration_sec)
+    sys.exit(0)
