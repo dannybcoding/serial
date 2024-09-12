@@ -1,0 +1,46 @@
+2024-08-15 12:26:58,090 - INFO - Starting iteration 1
+2024-08-15 12:26:58,091 - DEBUG - Attempting to open DUT port: /dev/ttye800
+2024-08-15 12:26:58,091 - DEBUG - Attempting to open AUX port: /dev/ttyTS00
+2024-08-15 12:26:58,278 - DEBUG - Successfully opened DUT port: /dev/ttye800
+2024-08-15 12:26:58,278 - DEBUG - Successfully opened AUX port: /dev/ttyTS00
+2024-08-15 12:26:58,279 - DEBUG - Attempting to open DUT port: /dev/ttye801
+2024-08-15 12:26:58,280 - DEBUG - Attempting to open AUX port: /dev/ttyTS01
+2024-08-15 12:26:58,440 - DEBUG - Successfully opened DUT port: /dev/ttye801
+2024-08-15 12:26:58,441 - DEBUG - Successfully opened AUX port: /dev/ttyTS01
+2024-08-15 12:26:58,442 - DEBUG - Attempting to open DUT port: /dev/ttye802
+2024-08-15 12:26:58,442 - DEBUG - Attempting to open AUX port: /dev/ttyTS02
+2024-08-15 12:26:58,604 - DEBUG - Successfully opened DUT port: /dev/ttye802
+2024-08-15 12:26:58,604 - DEBUG - Successfully opened AUX port: /dev/ttyTS02
+2024-08-15 12:26:58,605 - DEBUG - Attempting to open DUT port: /dev/ttye803
+2024-08-15 12:26:58,605 - DEBUG - Attempting to open AUX port: /dev/ttyTS03
+2024-08-15 12:26:58,766 - DEBUG - Successfully opened DUT port: /dev/ttye803
+2024-08-15 12:26:58,766 - DEBUG - Successfully opened AUX port: /dev/ttyTS03
+2024-08-15 12:27:06,307 - WARNING - Timeout: No data received from /dev/ttyTS00 at 7.03 seconds
+2024-08-15 12:27:06,471 - WARNING - Timeout: No data received from /dev/ttyTS01 at 7.03 seconds
+2024-08-15 12:27:06,630 - WARNING - Timeout: No data received from /dev/ttyTS02 at 7.02 seconds
+2024-08-15 12:27:06,794 - WARNING - Timeout: No data received from /dev/ttyTS03 at 7.02 seconds
+2024-08-15 12:27:08,309 - WARNING - Timeout: No data received from /dev/ttyTS00 at 9.03 seconds
+2024-08-15 12:27:08,476 - WARNING - Timeout: No data received from /dev/ttyTS01 at 9.03 seconds
+2024-08-15 12:27:08,634 - WARNING - Timeout: No data received from /dev/ttyTS02 at 9.03 seconds
+2024-08-15 12:27:08,798 - WARNING - Timeout: No data received from /dev/ttyTS03 at 9.03 seconds
+2024-08-15 12:27:10,312 - WARNING - Timeout: No data received from /dev/ttyTS00 at 11.03 seconds
+2024-08-15 12:27:10,479 - WARNING - Timeout: No data received from /dev/ttyTS01 at 11.04 seconds
+2024-08-15 12:27:10,637 - WARNING - Timeout: No data received from /dev/ttyTS02 at 11.03 seconds
+2024-08-15 12:27:10,801 - WARNING - Timeout: No data received from /dev/ttyTS03 at 11.03 seconds
+2024-08-15 12:27:12,805 - INFO - Sent characters:
+2024-08-15 12:27:12,805 - INFO - /dev/ttye800: 451
+2024-08-15 12:27:12,805 - INFO - /dev/ttye801: 449
+2024-08-15 12:27:12,805 - INFO - /dev/ttye802: 448
+2024-08-15 12:27:12,805 - INFO - /dev/ttye803: 449
+2024-08-15 12:27:12,805 - INFO - Received characters:
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS00: 451
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS01: 449
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS02: 448
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS03: 449
+2024-08-15 12:27:12,806 - INFO - Dropped characters:
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS00: 0
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS01: 0
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS02: 0
+2024-08-15 12:27:12,806 - INFO - /dev/ttyTS03: 0
+2024-08-15 12:27:12,806 - INFO - Finished iteration 1
+2024-08-15 12:27:12,807 - INFO - Stress test completed.
