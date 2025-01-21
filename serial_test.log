@@ -1,46 +1,64 @@
-2024-08-15 12:26:58,090 - INFO - Starting iteration 1
-2024-08-15 12:26:58,091 - DEBUG - Attempting to open DUT port: /dev/ttye800
-2024-08-15 12:26:58,091 - DEBUG - Attempting to open AUX port: /dev/ttyTS00
-2024-08-15 12:26:58,278 - DEBUG - Successfully opened DUT port: /dev/ttye800
-2024-08-15 12:26:58,278 - DEBUG - Successfully opened AUX port: /dev/ttyTS00
-2024-08-15 12:26:58,279 - DEBUG - Attempting to open DUT port: /dev/ttye801
-2024-08-15 12:26:58,280 - DEBUG - Attempting to open AUX port: /dev/ttyTS01
-2024-08-15 12:26:58,440 - DEBUG - Successfully opened DUT port: /dev/ttye801
-2024-08-15 12:26:58,441 - DEBUG - Successfully opened AUX port: /dev/ttyTS01
-2024-08-15 12:26:58,442 - DEBUG - Attempting to open DUT port: /dev/ttye802
-2024-08-15 12:26:58,442 - DEBUG - Attempting to open AUX port: /dev/ttyTS02
-2024-08-15 12:26:58,604 - DEBUG - Successfully opened DUT port: /dev/ttye802
-2024-08-15 12:26:58,604 - DEBUG - Successfully opened AUX port: /dev/ttyTS02
-2024-08-15 12:26:58,605 - DEBUG - Attempting to open DUT port: /dev/ttye803
-2024-08-15 12:26:58,605 - DEBUG - Attempting to open AUX port: /dev/ttyTS03
-2024-08-15 12:26:58,766 - DEBUG - Successfully opened DUT port: /dev/ttye803
-2024-08-15 12:26:58,766 - DEBUG - Successfully opened AUX port: /dev/ttyTS03
-2024-08-15 12:27:06,307 - WARNING - Timeout: No data received from /dev/ttyTS00 at 7.03 seconds
-2024-08-15 12:27:06,471 - WARNING - Timeout: No data received from /dev/ttyTS01 at 7.03 seconds
-2024-08-15 12:27:06,630 - WARNING - Timeout: No data received from /dev/ttyTS02 at 7.02 seconds
-2024-08-15 12:27:06,794 - WARNING - Timeout: No data received from /dev/ttyTS03 at 7.02 seconds
-2024-08-15 12:27:08,309 - WARNING - Timeout: No data received from /dev/ttyTS00 at 9.03 seconds
-2024-08-15 12:27:08,476 - WARNING - Timeout: No data received from /dev/ttyTS01 at 9.03 seconds
-2024-08-15 12:27:08,634 - WARNING - Timeout: No data received from /dev/ttyTS02 at 9.03 seconds
-2024-08-15 12:27:08,798 - WARNING - Timeout: No data received from /dev/ttyTS03 at 9.03 seconds
-2024-08-15 12:27:10,312 - WARNING - Timeout: No data received from /dev/ttyTS00 at 11.03 seconds
-2024-08-15 12:27:10,479 - WARNING - Timeout: No data received from /dev/ttyTS01 at 11.04 seconds
-2024-08-15 12:27:10,637 - WARNING - Timeout: No data received from /dev/ttyTS02 at 11.03 seconds
-2024-08-15 12:27:10,801 - WARNING - Timeout: No data received from /dev/ttyTS03 at 11.03 seconds
-2024-08-15 12:27:12,805 - INFO - Sent characters:
-2024-08-15 12:27:12,805 - INFO - /dev/ttye800: 451
-2024-08-15 12:27:12,805 - INFO - /dev/ttye801: 449
-2024-08-15 12:27:12,805 - INFO - /dev/ttye802: 448
-2024-08-15 12:27:12,805 - INFO - /dev/ttye803: 449
-2024-08-15 12:27:12,805 - INFO - Received characters:
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS00: 451
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS01: 449
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS02: 448
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS03: 449
-2024-08-15 12:27:12,806 - INFO - Dropped characters:
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS00: 0
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS01: 0
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS02: 0
-2024-08-15 12:27:12,806 - INFO - /dev/ttyTS03: 0
-2024-08-15 12:27:12,806 - INFO - Finished iteration 1
-2024-08-15 12:27:12,807 - INFO - Stress test completed.
+2025-01-21 07:26:35,211 - INFO - Starting iteration 1
+2025-01-21 07:26:35,212 - DEBUG - Attempting to open DUT port: /dev/ttye800
+2025-01-21 07:26:35,212 - DEBUG - Attempting to open AUX port: /dev/ttyts00
+2025-01-21 07:26:35,412 - DEBUG - Successfully opened DUT port: /dev/ttye800
+2025-01-21 07:26:35,413 - DEBUG - Successfully opened AUX port: /dev/ttyts00
+2025-01-21 07:26:35,420 - DEBUG - Attempting to open DUT port: /dev/ttye801
+2025-01-21 07:26:35,420 - DEBUG - Attempting to open AUX port: /dev/ttyts01
+2025-01-21 07:26:35,569 - DEBUG - Successfully opened DUT port: /dev/ttye801
+2025-01-21 07:26:35,572 - DEBUG - Successfully opened AUX port: /dev/ttyts01
+2025-01-21 07:26:35,577 - DEBUG - Attempting to open DUT port: /dev/ttye802
+2025-01-21 07:26:35,577 - DEBUG - Attempting to open AUX port: /dev/ttyts02
+2025-01-21 07:26:35,730 - DEBUG - Successfully opened DUT port: /dev/ttye802
+2025-01-21 07:26:35,730 - DEBUG - Successfully opened AUX port: /dev/ttyts02
+2025-01-21 07:26:35,738 - DEBUG - Attempting to open DUT port: /dev/ttye803
+2025-01-21 07:26:35,739 - DEBUG - Attempting to open AUX port: /dev/ttyts03
+2025-01-21 07:26:35,975 - DEBUG - Successfully opened DUT port: /dev/ttye803
+2025-01-21 07:26:35,976 - DEBUG - Successfully opened AUX port: /dev/ttyts03
+2025-01-21 07:27:08,530 - WARNING - Timeout: No data received from /dev/ttyts00 at 32.11 seconds
+2025-01-21 07:27:08,665 - WARNING - Timeout: No data received from /dev/ttyts01 at 32.08 seconds
+2025-01-21 07:27:08,825 - WARNING - Timeout: No data received from /dev/ttyts02 at 32.08 seconds
+2025-01-21 07:27:09,078 - WARNING - Timeout: No data received from /dev/ttyts03 at 32.10 seconds
+2025-01-21 07:27:10,538 - WARNING - Timeout: No data received from /dev/ttyts00 at 34.12 seconds
+2025-01-21 07:27:10,670 - WARNING - Timeout: No data received from /dev/ttyts01 at 34.09 seconds
+2025-01-21 07:27:10,832 - WARNING - Timeout: No data received from /dev/ttyts02 at 34.09 seconds
+2025-01-21 07:27:11,085 - WARNING - Timeout: No data received from /dev/ttyts03 at 34.10 seconds
+2025-01-21 07:27:12,541 - WARNING - Timeout: No data received from /dev/ttyts00 at 36.12 seconds
+2025-01-21 07:27:12,695 - WARNING - Timeout: No data received from /dev/ttyts01 at 36.11 seconds
+2025-01-21 07:27:12,839 - WARNING - Timeout: No data received from /dev/ttyts02 at 36.10 seconds
+2025-01-21 07:27:13,099 - WARNING - Timeout: No data received from /dev/ttyts03 at 36.12 seconds
+2025-01-21 07:27:15,135 - INFO - Sent characters:
+2025-01-21 07:27:15,136 - INFO - /dev/ttye800: 2481
+2025-01-21 07:27:15,136 - INFO - /dev/ttye801: 2484
+2025-01-21 07:27:15,136 - INFO - /dev/ttye802: 2475
+2025-01-21 07:27:15,136 - INFO - /dev/ttye803: 2490
+2025-01-21 07:27:15,136 - INFO - Received characters:
+2025-01-21 07:27:15,136 - INFO - /dev/ttyts00: 2481
+2025-01-21 07:27:15,136 - INFO - /dev/ttyts01: 2484
+2025-01-21 07:27:15,136 - INFO - /dev/ttyts02: 2475
+2025-01-21 07:27:15,136 - INFO - /dev/ttyts03: 2490
+2025-01-21 07:27:15,136 - INFO - Dropped characters:
+2025-01-21 07:27:15,137 - INFO - /dev/ttyts00: 0
+2025-01-21 07:27:15,137 - INFO - /dev/ttyts01: 0
+2025-01-21 07:27:15,137 - INFO - /dev/ttyts02: 0
+2025-01-21 07:27:15,137 - INFO - /dev/ttyts03: 0
+2025-01-21 07:27:15,137 - INFO - Finished iteration 1
+2025-01-21 07:27:15,137 - INFO - Starting iteration 2
+2025-01-21 07:27:15,137 - DEBUG - Attempting to open DUT port: /dev/ttye800
+2025-01-21 07:27:15,137 - DEBUG - Attempting to open AUX port: /dev/ttyts00
+2025-01-21 07:27:15,366 - DEBUG - Successfully opened DUT port: /dev/ttye800
+2025-01-21 07:27:15,367 - DEBUG - Successfully opened AUX port: /dev/ttyts00
+2025-01-21 07:27:15,377 - DEBUG - Attempting to open DUT port: /dev/ttye801
+2025-01-21 07:27:15,377 - DEBUG - Attempting to open AUX port: /dev/ttyts01
+2025-01-21 07:27:15,610 - DEBUG - Successfully opened DUT port: /dev/ttye801
+2025-01-21 07:27:15,610 - DEBUG - Successfully opened AUX port: /dev/ttyts01
+2025-01-21 07:27:15,612 - DEBUG - Attempting to open DUT port: /dev/ttye802
+2025-01-21 07:27:15,612 - DEBUG - Attempting to open AUX port: /dev/ttyts02
+2025-01-21 07:27:15,777 - DEBUG - Successfully opened DUT port: /dev/ttye802
+2025-01-21 07:27:15,777 - DEBUG - Successfully opened AUX port: /dev/ttyts02
+2025-01-21 07:27:15,779 - DEBUG - Attempting to open DUT port: /dev/ttye803
+2025-01-21 07:27:15,780 - DEBUG - Attempting to open AUX port: /dev/ttyts03
+2025-01-21 07:27:15,935 - DEBUG - Successfully opened DUT port: /dev/ttye803
+2025-01-21 07:27:15,935 - DEBUG - Successfully opened AUX port: /dev/ttyts03
+2025-01-21 07:27:48,178 - INFO - KeyboardInterrupt detected. Stopping test.
+2025-01-21 07:27:48,179 - INFO - Test Completed
